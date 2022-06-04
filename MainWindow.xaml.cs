@@ -61,7 +61,7 @@ namespace CalculadoraProgramacion
                 IsCurrentResult = false;
             }
 
-            if(txbResultado.Text == "0")
+            if(txbResultado.Text == "0" && value != ".")
             {
                 txbResultado.Text = value;
             }
